@@ -14,7 +14,9 @@
             <div class="container" style="
                 position: absolute;
                 background-size: cover;
-                color: black;
+                background-image: linear-gradient(109deg, brown, black);
+                color: transparent;
+                -webkit-background-clip: text;
                 top: 20px;
                 right: 20px;
                 padding-left: 20px;

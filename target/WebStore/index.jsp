@@ -18,6 +18,7 @@
     if (passwordMsg != null)
         passwordMessage = "" + request.getAttribute("passwordMsg") + "<br/>";
 %>
+
 <c:set var="loginValue" value="<%=login%>"/>
 <div class="zewnetrzny" style="position: relative">
     <img src="smartHome.jpg" alt="smartHome" title="Smart Home" style="background-size: auto 100px">
@@ -25,13 +26,15 @@
          top: 20px;
          left: 20px;
          background-size: cover;
-         color: white;
+         background-image: linear-gradient(109deg, red, yellow);
+         color: transparent;
+         -webkit-background-clip: text;
          padding-left: 20px;
          padding-right: 20px;">
         <center>
             <h2>Hello World!</h2>
             <h3>Welcome to us Smart World!</h3>
-            <form action="action_page.jsp">
+            <form action="products.jsp">
                 <input type="text" placeholder="Username" name="login" required>
                 <p style="color: red;"><%=userMessage%>
                 </p>

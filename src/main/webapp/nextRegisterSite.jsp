@@ -14,7 +14,9 @@
             <div class="container" style="
                 position: absolute;
                 background-size: cover;
-                color: black;
+                background-image: linear-gradient(109deg, black, red);
+                color: transparent;
+                -webkit-background-clip: text;
                 top: 20px;
                 left: 20px;
                 padding-left: 20px;
@@ -22,7 +24,7 @@
                 <h1>Add your personal details</h1>
                 <b>Or do it later and go to the store</b>
                 <p>
-                    <button type="submit" class="storeButton"><a href="action_page.jsp"> Store</a></button>
+                    <button type="submit" class="storeButton"><a href="products.jsp"> Store</a></button>
                 </p>
                 <hr>
 
@@ -36,7 +38,7 @@
                 </p>
                 <p>
                     <label><b>Enter street</b></label>
-                    <input type="text" placeholder="Enter street and house number" name="address" required>
+                    <input type="text" placeholder="Enter street and house nr" name="address" required>
                 </p>
                 <p>
                     <label><b>Enter postCode</b></label>
